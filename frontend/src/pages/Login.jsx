@@ -28,9 +28,12 @@ export default function Login() {
     >
       <div className="bg-green-700/40 backdrop-blur-lg border border-green-300/30 shadow-2xl rounded-xl p-8 w-full max-w-md animate-fade-in motion-safe:animate-fade-in">
         <div className="mb-6 text-center">
-          <h1 className="text-4xl font-extrabold text-white tracking-tight drop-shadow-lg">
-            Verdi 🌿
-          </h1>
+          <img
+            src="/verdi-logo.png"
+            alt="Logo Verdi"
+            className="mx-auto h-14 mb-3 drop-shadow-md"
+          />
+          <h1 className="text-3xl font-bold text-white drop-shadow-md">Verdi</h1>
           <p className="text-white/80 text-sm">Monitore e preserve as áreas verdes</p>
         </div>
 
@@ -42,6 +45,7 @@ export default function Login() {
             <input
               id="email"
               type="email"
+              autoComplete="email"
               className="w-full border border-white/30 bg-white/10 text-white placeholder-white/60 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-300 transition"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -57,6 +61,7 @@ export default function Login() {
             <input
               id="password"
               type="password"
+              autoComplete="current-password"
               className="w-full border border-white/30 bg-white/10 text-white placeholder-white/60 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-300 transition"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -67,7 +72,7 @@ export default function Login() {
 
           <button
             type="submit"
-            className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 rounded-lg transition duration-300"
+            className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 rounded-lg transition-all duration-300"
           >
             Entrar
           </button>

@@ -12,9 +12,18 @@ export default function Navbar() {
     <nav className="bg-green-700 text-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <Link to="/" className="text-2xl font-bold tracking-wide">
-            🌿 Verdi
+          
+          {/* Logo + Título */}
+          <Link to="/" className="flex items-center gap-2 text-2xl font-bold tracking-wide">
+            <img
+              src="/verdi-logo.png"
+              alt="Logo Verdi"
+              className="w-8 h-8"
+            />
+            Verdi
           </Link>
+
+          {/* Links de Navegação */}
           <div className="flex space-x-4">
             <Link
               to="/"

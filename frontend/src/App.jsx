@@ -32,7 +32,7 @@ function App() {
         <Navbar />
         <ToggleThemeButton />
         <header className="text-center my-6">
-          <h1 className="text-3xl font-bold text-green-600 dark:text-green-400 animate-fade-in">Verdi 🌱</h1>
+          <h1 className="text-3xl font-bold text-green-600 dark:text-green-400 animate-fade-in">Verdi</h1>
         </header>
         <main className="px-4 pb-10 animate-fade-in">
           <AppRoutes />
