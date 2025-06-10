@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-green-50 dark:bg-gray-900 p-6 transition-colors duration-300">
       <h2 className="text-3xl font-bold text-green-700 dark:text-green-300 mb-6 text-center animate-fade-in-up">
-        📍 Mapa de Denúncias Ambientais
+        Mapa de Denúncias Ambientais
       </h2>
 
       <div className="rounded-xl overflow-hidden shadow-xl border border-green-200 dark:border-green-700 mb-8">
