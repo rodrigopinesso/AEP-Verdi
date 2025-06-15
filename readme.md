@@ -10,6 +10,9 @@ Este projeto foi desenvolvido por Rodrigo Pinesso RA: 22014201-2, Murilo Varoto 
 
 ---
 
+## Link do vídeo
+- https://www.youtube.com/watch?v=peKZiO8TwXs&ab_channel=RodrigoPinesso
+---
 ## 📌 Funcionalidades Principais
 
 * Autenticação com JWT (login e registro de usuários)
